@@ -1,0 +1,28 @@
+/* ================= css/pecentation.css ================= */
+.precentation{
+    padding:6rem 1rem; 
+    background:linear-gradient(160deg,var(--panel),#314e8b);
+}
+
+.precentation h1{
+    font-size:2.5rem; 
+    margin-bottom:1rem;
+}
+
+.lead{
+    font-size:1.2rem; 
+    color:var(--muted); 
+    margin-bottom:2rem;
+}
+
+.precentation-cta .boton{
+    margin:.5rem; 
+}
+
+
+
+/* parte responsive */
+
+@media (max-width:50rem){
+    .precentation h1{font-size:2rem;}
+}
